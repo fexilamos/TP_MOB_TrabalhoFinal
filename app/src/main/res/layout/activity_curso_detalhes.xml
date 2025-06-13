@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgCurso"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do curso"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txtDataInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data de início"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txtDataFim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data de fim"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preço"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txtDuracao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duração"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txtEdicao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edição"
+            android:paddingTop="4dp"/>
+    </LinearLayout>
+</ScrollView>

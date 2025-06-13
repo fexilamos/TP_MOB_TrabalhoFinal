@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP_MOB_TiagoCardona</string>
+    <string-array name="opcoes_ordenacao">
+        <item>Nome (A-Z)</item>
+        <item>Nome (Z-A)</item>
+        <item>Data início (mais antiga)</item>
+        <item>Data início (mais recente)</item>
+    </string-array>
+</resources>

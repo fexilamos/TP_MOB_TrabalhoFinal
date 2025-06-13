@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Compare this snippet from app/src/main/res/layout/activity_main.xml: -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <Spinner
+        android:id="@+id/spinnerOrdenacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/opcoes_ordenacao"
+        android:layout_margin="16dp"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCursos"
+        android:layout_width="match_parent"
+        android:layout_height="572dp"
+        android:padding="10dp"
+
+        />
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Curso" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:id="@+id/sobreapp"
+        />
+
+</LinearLayout>
